@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+hyper = { version = "0.14", features = ["full"] }
+rustls = "0.21.9"
+tokio = { version = "1.0", features = ["full"] }
+hyper-rustls = { version = "0.24.2"}
+rustls-pemfile = "1.0.4"
